@@ -1,0 +1,16 @@
+/* Portable image paths. Loaded after styles.css so the website never uses local C: drive URLs. */
+:root {
+  --art-root: url('./assets/characters-items.png');
+}
+
+#scene.classroom {
+  background-image: linear-gradient(90deg, #060b1699, transparent 68%), url('./assets/classroom.png') !important;
+}
+
+#scene.hallway {
+  background-image: linear-gradient(90deg, #060b1688, transparent 65%), url('./assets/hallway.png') !important;
+}
+
+#scene.power {
+  background-image: linear-gradient(90deg, #060b1688, transparent 65%), url('./assets/power-room.png') !important;
+}
