@@ -1,6 +1,6 @@
 /* Portable image paths. Loaded after styles.css so the website never uses local C: drive URLs. */
 :root {
-  --art-root: url('./assets/characters-items.png');
+  --art-root: url('./assets/character-items.png') !important;
 }
 
 #scene.classroom {
